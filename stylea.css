@@ -234,7 +234,7 @@ input[type="email"] {
 
 
   
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 700px){
 
     .studio {
       display: flex;
@@ -244,10 +244,18 @@ input[type="email"] {
     }
 
     .staffsection {
+      padding-left: 180px;
+      flex-direction: column;
+      display: flex;
+      
+      
+      
+    }
+
+    .edit {
+      padding-right: 300px;
       display: flex;
       flex-direction: column;
-      
-      
     }
 
     .footer {
