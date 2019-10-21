@@ -1,0 +1,267 @@
+
+
+.fontc {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(70, 70, 70);
+    
+  }
+  
+
+
+.header1 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(70, 70, 70);
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+.size{
+  height: auto;
+  width: 20rem;
+}
+
+
+
+
+.flexcontainer {
+  margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+
+.cf {
+    position:relative;
+    height:500px;
+    width:350px;
+    margin:0 auto;
+  }
+  
+  .cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .cf img.top:hover {
+    opacity:0;
+  }
+
+  .cf2 {
+    position:relative;
+    height:500px;
+    width:350px;
+    margin:0 auto;
+  }
+  
+  .cf2 img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .cf2 img.top2:hover {
+    opacity:0;
+  }
+
+  .cf3 {
+    position: relative;
+    height:500px;
+    width:350px;
+    margin:0 auto;
+  }
+  
+  .cf3 img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .bottom3 {
+     position: center;
+  }
+
+
+  .cf3 img.top3:hover {
+    opacity:0;
+  }
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+    color: rgb(70, 70, 70);
+  text-align: center;
+}
+
+
+.studio {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+
+
+
+    .btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .button {
+      border-radius: 4px;
+      background-color: rgb(0, 0, 0);
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 15px;
+      width: 120px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 40px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+
+
+
+h3 {
+  
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+    color: rgb(70, 70, 70);
+  text-align: center;
+}
+
+.staffsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  border: 2px solid black;
+  
+}
+
+.icons {
+  padding-top: 5px;
+  padding-right: 200px;
+  display: flex;
+flex-direction: column;
+
+}
+
+
+.footer {
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+    color: rgb(70, 70, 70);
+  margin: 20px;
+  display: flex;
+  flex-direction: row; 
+
+}
+
+.info , .aboutus , .form {
+  margin: 30px;
+  width: 100%;
+  height: 50%;
+}
+
+
+
+
+
+
+input[type="text"] {
+width: 280px;
+padding: 10px;
+
+}
+
+input[type="email"] {
+  width: 280px;
+  padding: 10px;
+  
+  }
+
+  textarea {
+    width: 280px;
+  }
+
+
+  
+  @media screen and (max-width: 600px){
+
+    .studio {
+      display: flex;
+      height: auto;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .staffsection {
+      display: flex;
+      flex-direction: column;
+      
+      
+    }
+
+    .footer {
+      padding: 0 3rem 0 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cf2 {
+      display: none;
+
+    }
+    .cf3 {
+      display: none;
+    }
+   
+  }

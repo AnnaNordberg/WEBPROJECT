@@ -1,0 +1,70 @@
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    background:linear-gradient( rgba(255, 254, 254, 0.5), rgba(255, 255, 255, 0.8)) ,url(pictures/crackedpaint.jpg);
+    background-size: cover;
+}
+
+
+    
+
+.header {
+  font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+
+}
+
+h1 {
+    text-align: center;
+       
+}
+
+.fontc {
+  color: rgb(70, 70, 70);
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  .flex-container> div  {
+      border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+  .box1 {
+    background: url(pictures/model10.jpg);
+      height: 500px;
+      width: 350px;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .box2 {
+    background: url(pictures/modelmedium.jpg);
+    height: 500px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+
+.box3 {
+  background: url(pictures/model9.jpg);
+    height: 500px;
+      width: 350px;
+      background-position: center;
+      background-size: cover;
+}
